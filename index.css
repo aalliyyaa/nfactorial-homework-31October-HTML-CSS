@@ -1,0 +1,118 @@
+.row{
+    display: flex;
+    background-color: blue;
+    height: 30px;
+    width: 100%;
+}
+.row1_div {
+    background-color: red ;
+    width: 50%;
+    }
+
+.row2_div{
+    background-color: green;
+    width: 90%;
+}
+
+.row3_div1{
+    background-color: red;
+    width: 10%;
+}
+
+.row3_div2{
+    background-color: green;
+    width: 80%;
+}
+
+.row4_div{
+    background-color: red;
+    width:90%
+}
+    
+.row5{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+}
+.row5_div{
+    background-color: red;
+        height: 20px;
+        width: 20px; 
+    }
+
+.row6{
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+        justify-content: center;
+        height: 30px;
+        width: 100%;
+    }
+    .row6_div {
+        background-color: blue;
+            height: 30px;
+            width: 50px; 
+        }
+
+.row7{
+   display:flex; 
+   height: 30px;
+   width:100%;
+   background-color: green;
+
+}
+
+.row7_2{
+    display:flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+}
+
+.row7_2 div{
+    background-color: blue;
+    height: 10px;
+} 
+
+.row7_div{
+    background-color: red;
+    width:10%;
+}
+
+
+.row8 div{
+min-width: 30px;
+height:20px;
+border-style: solid;
+flex:1;
+}
+.row8{
+    background-color: yellow;
+    display: flex;
+}
+
+.row8 div:nth-child(even){
+    background-color: green;
+    flex:5;
+}
+
+.row9 div{
+    min-width: 30px;
+    height:20px;
+    border-style: solid;
+    flex:5;
+    }
+    .row9{
+        background-color: yellow;
+        display: flex;
+    }
+    
+    .row9 div:nth-child(even){
+        background-color: green;
+        flex:0.5;
+    }
+    
